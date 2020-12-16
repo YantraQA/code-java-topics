@@ -3963,15 +3963,15 @@ public class _2_FinallyBlock {
 ---
 ### Access Modifier
 
-
+<details>
+ <summary>Click here-Access Modifier</summary>
+ 
 
 > ![Image](_1_AccessModifiers.jpg)
 
 > ![Image](_2_AccessModifiers.jpg)
 
-<details>
- <summary>Click here-Access Modifier</summary>
- 
+
 ```java
 package _11_Session._3_AccessModifier.Test;
 
