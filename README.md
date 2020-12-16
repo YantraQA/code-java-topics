@@ -3825,6 +3825,9 @@ public class _2_FinallyBlock {
 ---
 ### Access Modifier
 
+<details>
+ <summary>Access Modifier</summary>
+
 > ![Image](_1_AccessModifiers.jpg)
 
 > ![Image](_2_AccessModifiers.jpg)
@@ -3927,6 +3930,8 @@ public class _1_Company {
 
 ```
 
+
+ 
 ```java
 package _11_Session._3_AccessModifier;
 
@@ -3946,3 +3951,4 @@ public class _2_TestCompany_1 {
 }
 
 ```
+</details>
