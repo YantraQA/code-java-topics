@@ -6,7 +6,7 @@
 * Date: June-2020
 * This Repo contain step by step Java Topics for training purposes. 
 * You can download the project and import as Maven Project in Eclipse or IntelliJ in order to execute the programs.
-* Reach out for more details about this repo: akashdktyagi@gmail.com/sarangholey@gmail.com
+* Reach out for more details about this repo: akashdktyagi@gmail.com / sarangholey@gmail.com
 
 ---
 >Bringing the code in this File as well so as to have a consolidated view of all the Basic Java Programs.
