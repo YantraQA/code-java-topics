@@ -55,8 +55,9 @@ public class _2_String_And_Character_Concatination {
 		int bill = 520;
 		int tax = 30;
 		//int total = bill+tax;
-		//System.out.println("Food Bill is : " + total);
-		System.out.println("Food Bill is : " + (bill+tax));
+		//System.out.println("Food Bill is : " + total); // 550
+		//System.out.println("Food Bill is : " + bill+tax); // 52030
+		//System.out.println("Food Bill is : " + (bill+tax)); // 550
 		
 		
 		// *************************************************
@@ -67,11 +68,11 @@ public class _2_String_And_Character_Concatination {
 		char c3 = 'A'; String q1 = "A";
 		char c4 = 'B'; String q2 = "B";
 		
-		System.out.println(c1+c2);
-		System.out.println(z1+z2);
+		System.out.println(c1+c2); // 105 ('4'=52 + '5'=53 = 105)
+		System.out.println(z1+z2); // 9
 		System.out.println("-----------");
-		System.out.println(c3+c4);
-		System.out.println(q1+q2);
+		System.out.println(c3+c4); // 131 (A=65 + B=66 = 131)
+		System.out.println(q1+q2); // AB
 		
 		
 
