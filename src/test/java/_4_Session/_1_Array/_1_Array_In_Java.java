@@ -22,13 +22,15 @@ public class _1_Array_In_Java {
 		
 		// Ways of declaration for Array
 		//  Example - 1
-		int[] q = new int[4];
+		int[] q = new int[4]; // 0 1 2 3
 		
-		int x[] = new int[3]; 
+		int x[] = new int[3]; // 0 1 2
 		// or 
 		int []y = new int[3]; 
 		// or 
-		int z[] = {10,20,30};
+		int z[] = {10,20,30}; 
+		// 0   1  2
+		// 10 20 30
 		
 		// Here Index number starting from 0 to 2 and length of array is 3 i.e for 0 to 2
 		// Note - The "new" keyword is to create data space into an array and not like to create objects with new keyword.
@@ -43,9 +45,11 @@ public class _1_Array_In_Java {
 		System.out.println(x.length); // O/P  - 3 the .length is a method used to calculate the length of an array.
 		System.out.println(x[1]+x[2]); // O/P - 70
 		
+		System.out.println("----------------------------------------------------");
+		
 		// To print all/specific the values from array
 		for(int k=0; k<x.length; k++) // if we write k<=i.length then after printing 10 20 50 it will throw exception
-		// for(int k=0; k<=i.length()-1; k++) // can be used also
+		// for(int k=0; k<=x.length-1; k++) // can be used also
 		{
 			System.out.println(x[k]);
 			if(x[k]==20)
@@ -108,25 +112,25 @@ public class _1_Array_In_Java {
 
 
 		System.out.println("----------------------------------------------------");
-		
-		// Summary of topic 
-		// Exceptions in array comes? -> - ArrayIndexOutOfBoundException
-		// .length used to check the length of the array 
-		// Array will store data in form of indexes
-		// Array can be declared in many types
-		// While comparing primitive data types in array use == operator and for not primitive data types comparison use .equals method
-
-		// Limitation of Arrays
-		// 1. Suppose we have to store some kind of data like student name information,
-		// employee name and we have to use an array then we have to either declare the array 
-		// size more then extra memory allocation happens and vice versa.
-		// 2. Size of array is fixed once it's created so we use arraylist to overcome this problem
-		// 3. Similar kind of data has to be stored in Array - We can use Object Array or ArrayList, 
-		// but still in object array the size is fixed.(Object is super class of all classes)
-		// 4. Object array or normal array is used in real time applications where the data size is fixed 
-		// ex- days in week, months, dates in month. Object Array ex - Employee information with Name, DOB, EmpId, EmpDept
-		// 5. Garbage collector dont remove the excess space which is unused by the huge array sizes, 
-		// Gc will only removes objects which are unused
+//		
+//		// Summary of topic 
+//		// Exceptions in array comes? -> - ArrayIndexOutOfBoundException
+//		// .length used to check the length of the array 
+//		// Array will store data in form of indexes
+//		// Array can be declared in many types
+//		// While comparing primitive data types in array use == operator and for not primitive data types comparison use .equals method
+//
+//		// Limitation of Arrays
+//		// 1. Suppose we have to store some kind of data like student name information,
+//		// employee name and we have to use an array then we have to either declare the array 
+//		// size more then extra memory allocation happens and vice versa.
+//		// 2. Size of array is fixed once it's created so we use arraylist to overcome this problem
+//		// 3. Similar kind of data has to be stored in Array - We can use Object Array or ArrayList, 
+//		// but still in object array the size is fixed.(Object is super class of all classes)
+//		// 4. Object array or normal array is used in real time applications where the data size is fixed 
+//		// ex- days in week, months, dates in month. Object Array ex - Employee information with Name, DOB, EmpId, EmpDept
+//		// 5. Garbage collector dont remove the excess space which is unused by the huge array sizes, 
+//		// Gc will only removes objects which are unused
 
 		System.out.println("----------------------------------------------------");
 		Object emp[] = new Object[5];
@@ -135,27 +139,28 @@ public class _1_Array_In_Java {
 		emp[2] = 499; // salary in dollars
 		emp[3] = true; // resident of india
 		emp[4] = 'm'; // gender
+		//emp[5] = false; // having A OWN SYSTEM
 		for(int a=0; a<emp.length; a++)
 		{
 		System.out.println(emp[a]);
 		}
-		
-		// In the above example 
-		// it will print all information about the employee. 
-		// What if the parameters like having a laptop, contract type, etc then again we have to increase the size of the array. 
-
-		// So we can use these array and Object array where the parameters and size of data is permanent type or fixed type. 
-		// Ex - days in a week, months, 
-		// Number of branches of a company, 
-		// departments of the companies, 
-		// number of subjects in a semester, 
-		// flat numbers in an apartment.
-
-		//Note - 
-		// 1. if we don’t add the values in the array and try to print it then the default value of the data type will get printed.
-		// 2. New keyword in arrays is used to allocate memory not for creation of object (in array context).
-		
-		
+	
+//		// In the above example 
+//		// it will print all information about the employee. 
+//		// What if the parameters like having a laptop, contract type, etc then again we have to increase the size of the array. 
+//
+//		// So we can use these array and Object array where the parameters and size of data is permanent type or fixed type. 
+//		// Ex - days in a week, months, 
+//		// Number of branches of a company, 
+//		// departments of the companies, 
+//		// number of subjects in a semester, 
+//		// flat numbers in an apartment.
+//
+//		//Note - 
+//		// 1. if we don’t add the values in the array and try to print it then the default value of the data type will get printed.
+//		// 2. New keyword in arrays is used to allocate memory not for creation of object (in array context).
+//		
+//		
 
 
 	}

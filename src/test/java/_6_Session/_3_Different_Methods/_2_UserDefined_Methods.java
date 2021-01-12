@@ -84,7 +84,7 @@ public class _2_UserDefined_Methods {
 		String countryName = userDefMethods.nameOfCountry();
 		System.out.println("The country name is - "  + countryName);
 		// Second Way
-		System.out.println("The country name is - " + userDefMethods.nameOfCountry());
+		System.out.println("The country name is - " + userDefMethods.nameOfCountry().toUpperCase());
 		System.out.println("----------------------------------------------");
 		
 		// Calling listOfStudents method

@@ -19,7 +19,7 @@ public class _2_Car {
 		sportsCar.name = "BMW";
 		sportsCar.price = 40_000;
 		sportsCar.colour = "Sterling Black";
-		sportsCar.wheels = 5; 
+		//sportsCar.wheels = 5; 
 		
 		// variables value
 		System.out.println("---- sports Car Details ----");

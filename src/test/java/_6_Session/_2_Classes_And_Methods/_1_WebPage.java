@@ -36,7 +36,7 @@ public class _1_WebPage {
 		System.out.println("---------------- footerLinks End ------------------");
 	}
 
-	// Static methods
+	
 	public void centerPannel() {
 		// logic
 		System.out.println("---------------- centerPannel Start ---------------");
@@ -56,4 +56,14 @@ public class _1_WebPage {
 		System.out.println("---------------- privacyPolicy End ----------------");
 	}
 	
+	
+	public static void main(String[] args) {
+		
+		_1_WebPage xc = new _1_WebPage();
+		xc.topPannel();
+		//xc.privacyPolicy();
+		privacyPolicy();
+		_1_WebPage.privacyPolicy();
+		
+	}
 }

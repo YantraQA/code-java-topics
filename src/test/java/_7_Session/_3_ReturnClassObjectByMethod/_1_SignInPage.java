@@ -10,11 +10,11 @@ public class _1_SignInPage  {
 
 		//return class object - home page class object from login() method
 		// 1.
-		return new _2_HomePage();
+		//return new _2_HomePage();
 		
 		// 2.
-		//HomePage hp = new _2_HomePage();
-		//return hp;
+		_2_HomePage hp = new _2_HomePage();
+		return hp;
 	}
 	
 }

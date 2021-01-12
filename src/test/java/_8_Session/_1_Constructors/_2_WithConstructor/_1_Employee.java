@@ -7,13 +7,14 @@ public class _1_Employee {
 	int age;
 	String dept;
 	int empId;
+
 	static String compName = "Unicorn Systems";
 
 	// Constructors is the mechanism called when an object of a class got created
 	// Points to be noted - 1. It has no return type
 	//						2. It has same name of the class name
 	// 						3. If no constructor is provided by user java creates it
-	// 						4. Types of  constructors: 	1. User defined Default constructor
+	// 						4. Types of  constructors: 	1. Default constructor
 	//													2. User defined constructor (parameterized or non parameterized)
 	//						5. Constructor can be overloaded with different parameters
 

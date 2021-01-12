@@ -16,7 +16,8 @@ public class _1_for_loop {
 		
 		// Example - Print only even numbers in between 1 to 20
 		System.out.println("Even numbers from 0 to 20 are ->");
-		for (int even = 0; even <= 20; even = even+2) {
+		for (int even = 0; even <= 20; even = even+2) // This is not a wise way to print the even values
+		{
 			System.out.println(even); // 0, 2,... 18, 20 
 		}
 

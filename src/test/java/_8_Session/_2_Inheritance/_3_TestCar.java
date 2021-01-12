@@ -10,7 +10,7 @@ public static void main(String[] args) {
 		_2_BMW b = new _2_BMW();
 		b.stop(); // calls Car class stop method
 		b.start(); // calls BMW class start Method
-		b.fillFuel(); // calls Car class stop method 
+		b.fillFuel(); // calls Car class fillFuel method 
 		b.autoParking(); // calls BMW class autoParking Method
 		b.engine(); // calls Vehicle class engine Method
 		
@@ -28,7 +28,7 @@ public static void main(String[] args) {
 		
 		System.out.println("Parent class reference with child class object");
 		//Top Casting/ Up casting
-		_1_Car c1 = new _2_BMW();//child class object can be referred by parent class ref variable...
+		_1_Car c1 = new _2_BMW(); //child class object can be referred by parent class ref variable...
 		c1.start(); // calls Car class start method 
 		c1.stop(); // calls Car class stop method
 		c1.fillFuel(); // calls Car class fillFuel method

@@ -43,7 +43,7 @@ public class _1_While_loop {
 			{
 				System.out.println("Hey this is Five here");
 				// if after number 5 if no need to print next numbers use break
-				//break;
+				break;
 			}
 			// Condition to increase the counter value
 			j++; // (++j) or (j=j+1) also fine here

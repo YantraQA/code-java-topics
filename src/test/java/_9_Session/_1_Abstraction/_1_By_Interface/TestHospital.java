@@ -15,12 +15,14 @@ public class TestHospital {
 		
 		System.out.println(ap.min_fee); // warning  - from USMedical Interface
 		System.out.println(_1_USMedical.min_fee);
-		//_1_USMedical.min_fee = 20; // not allowed as the variable is final
+//		_1_USMedical.min_fee = 20; // not allowed as the variable is final
 		_1_USMedical.Services_911(); // Static method - from USMedical Interface
 		
 		ap.intership(); // default method - from USMedical Interface
 		
 		ap.getPatientHistory(); // from GlobalPatientData Class
+		
+		System.out.println("-------------------------------------------------------------");
 		
 		//top Casting:
 		_1_USMedical us = new _4_ApolloHospital();//child class object can be referred by parent interface reference variable
@@ -32,6 +34,7 @@ public class TestHospital {
 		//down Casting:
 		// its not allowed
 		// As object of a interface cannot be created
+		//_4_ApolloHospital asd = new _1_USMedical();
 		
 		_2_UKMedical uk = new _4_ApolloHospital();
 		uk.ambulanceServices();
