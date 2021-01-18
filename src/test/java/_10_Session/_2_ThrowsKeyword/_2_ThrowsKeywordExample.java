@@ -2,26 +2,26 @@ package _10_Session._2_ThrowsKeyword;
 
 public class _2_ThrowsKeywordExample {
 	
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args)  {
 
 		_2_ThrowsKeywordExample objRef = new _2_ThrowsKeywordExample();
 		objRef.launchBrowser();
 
 	}
 
-	public void launchBrowser() throws Exception
+	public void launchBrowser() 
 	{
 		System.out.println("launchBrowser ..... ");
 		launchURL();
 	}
 
-	public void launchURL() throws Exception
+	public void launchURL() 
 	{
 		System.out.println("launchURL ..... ");
 		login();
 	}
 
-	public void login() throws Exception
+	public void login() 
 	{
 		System.out.println("Do login to the application ......-> ");
 		

@@ -18,7 +18,7 @@ public class _2_LoginPage extends _1_Page{
 
 	@Override
 	public void footerLinks() {
-		System.out.println("privacy policy");
+		System.out.println("footerLinks.....");
 	}
 	
 	@Override
@@ -29,7 +29,7 @@ public class _2_LoginPage extends _1_Page{
 //	@Override
 //	public void privacyPolicy()
 //	{
-//		System.out.println("fvdf");
+//		System.out.println("Change in some privacy policy for login page .....");
 //	}
 	
 	// Special method of login page class

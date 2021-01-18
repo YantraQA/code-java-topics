@@ -16,6 +16,7 @@ public class _1_Company {
 
 	public void setName(String name) {
 		this.name = name;
+		
 	}
 
 	public String getLogo() {
@@ -31,7 +32,8 @@ public class _1_Company {
 	}
 
 	public void setEmpCount(int empCount) {
-		EmpCount = empCount;
+		int addMoreEmp = 10 + empCount;
+		EmpCount = addMoreEmp;
 	}
 
 	public String getEngine() {

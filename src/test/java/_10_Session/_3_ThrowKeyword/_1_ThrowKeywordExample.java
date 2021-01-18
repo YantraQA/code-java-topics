@@ -24,8 +24,8 @@ public class _1_ThrowKeywordExample {
 	//----------------------------------------------------------------------------------------------
 		
 		// Use case
-//		// 1. While reading data from any excel sheet the cell value gets empty or null
-//		String username = "tom@gmail.com";
+		// 1. While reading data from any excel sheet the cell value gets empty or null
+//		String username = " "; // " "; 
 //		if(username.equals(" ") || username.equals(null))
 //		{
 //			try
@@ -44,7 +44,7 @@ public class _1_ThrowKeywordExample {
 		
 		//----------------------------------------------------------------------------------------------
 		
-		launchURL(" ");
+		  launchURL("https://www.test.com"); // (" ");
 		
 	}
 	
@@ -64,6 +64,9 @@ public class _1_ThrowKeywordExample {
 				e.printStackTrace();
 				System.out.println("The entered url value is incorrect...");
 			}
+		}
+		else {
+			System.out.println("Launching the url -> "+ url);
 		}
 	}
 	

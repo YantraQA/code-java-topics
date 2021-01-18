@@ -2,30 +2,30 @@ package _10_Session._2_ThrowsKeyword;
 
 public class _1_ThrowsKeywordExample {
 
-	public static void main(String[] args) {
-	
-		_1_ThrowsKeywordExample objRef = new _1_ThrowsKeywordExample();
-		objRef.launchBrowser();
-	
-	}
-	
-	public void launchBrowser()
-	{
-		System.out.println("launchBrowser ..... ");
-		launchURL();
-	}
-	
-	public void launchURL()
-	{
-		System.out.println("launchURL ..... ");
-		login();
-	}
-	
-	public void login()
-	{
-		System.out.println("Do login to the application ......-> ");
-		int a = 9/0;
-	}
+//	public static void main(String[] args) {
+//	
+//		_1_ThrowsKeywordExample objRef = new _1_ThrowsKeywordExample();
+//		objRef.launchBrowser();
+//	
+//	}
+//	
+//	public void launchBrowser()
+//	{
+//		System.out.println("launchBrowser ..... ");
+//		launchURL();
+//	}
+//	
+//	public void launchURL()
+//	{
+//		System.out.println("launchURL ..... ");
+//		login();
+//	}
+//	
+//	public void login()
+//	{
+//		System.out.println("Do login to the application ......-> ");
+//		int a = 9/0;
+//	}
 
 	// Below is the stack track of the excetion starting from main method -> launchBrowser -> launchURL -> login
 	
@@ -41,30 +41,30 @@ public class _1_ThrowsKeywordExample {
 //-------------------------------------------------------------------------------------------------------------
 
 	 //now throws these type of exceptions
-//	public static void main(String[] args) throws Exception {
-//	
-//	_1_ThrowsKeywordExample objRef = new _1_ThrowsKeywordExample();
-//	objRef.launchBrowser();
-//	
-//	}
-//	
-//	public void launchBrowser() throws Exception
-//	{
-//	System.out.println("launchBrowser ..... ");
-//	launchURL();
-//	}
-//	
-//	public void launchURL() throws Exception
-//	{
-//	System.out.println("launchURL ..... ");
-//	login();
-//	}
-//	
-//	public void login() throws Exception
-//	{
-//	System.out.println("Do login to the application ......-> ");
-//	int a = 9/0;
-//	}	
+	public static void main(String[] args) throws Exception {
+	
+	_1_ThrowsKeywordExample objRef = new _1_ThrowsKeywordExample();
+	objRef.launchBrowser();
+	
+	}
+	
+	public void launchBrowser() throws Exception
+	{
+	System.out.println("launchBrowser ..... ");
+	launchURL();
+	}
+	
+	public void launchURL() throws Exception
+	{
+	System.out.println("launchURL ..... ");
+	login();
+	}
+	
+	public void login() throws Exception
+	{
+	System.out.println("Do login to the application ......-> ");
+	int a = 9/0;
+	}	
 	
 	// Here all methods are throwing the exceptions so jvm will catch this exception and gives output
 	//Exception in thread "main" java.lang.ArithmeticException: / by zero

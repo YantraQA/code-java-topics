@@ -4,6 +4,8 @@ public class _3_TestPage {
 
 	public static void main(String[] args) {
 		
+		//_1_Page abs = new _1_Page();
+		
 		System.out.println("------------------------------");
 		
 		_2_LoginPage lp = new _2_LoginPage();
@@ -11,7 +13,7 @@ public class _3_TestPage {
 		lp.url(); // overridden method from abstract class
 		lp.footerLinks(); // overridden method from abstract class
 		lp.doLogin(); // special method from login page class
-		lp.logo(); // overridden Non abstract method from abstract class
+		lp.logo(); // overridden Non abstract method from LoginPage class
 		lp.privacyPolicy(); // Non abstract final method from abstract class
 		
 		System.out.println("------------------------------");
@@ -20,7 +22,7 @@ public class _3_TestPage {
 		p.title(); // overridden method from abstract class
 		p.logo(); // overridden Non abstract method from abstract class
 		p.privacyPolicy(); // Non abstract final method from abstract class
-//		p.doLogin(); // Not allowed - special method from login page class
+		//p.doLogin(); // Not allowed - special method from login page class
 		
 		System.out.println("------------------------------");
 	}

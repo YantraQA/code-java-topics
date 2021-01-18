@@ -1,12 +1,15 @@
 package _10_Session._1_TryCatchBlock;
 
 public class _4_TryCatch {
+	
+	static int x = 9;
+	static int y = 0; //(Integer) null; 
 
 	public static void main(String[] args) {
 
 		_4_TryCatch tc = new _4_TryCatch();
 
-		tc.division(9, 0);
+		tc.division(x, y);
 
 	}
 
@@ -33,6 +36,8 @@ public class _4_TryCatch {
 			e.printStackTrace();    // This will print the proper hierarchy from where the exception is coming
 			System.out.println("An Exception occured other than ArithmeticException inside division method"); // User defined message for more clarification
 		}
+		
+		
 	}
 
 }
