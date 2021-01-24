@@ -14,11 +14,12 @@ public class _2_FinallyBlock {
 	public static int getNumber()
 	{
 		int a = 10;
-		int b = 20;
+		int b = 5; 
+		//int b = 0;
 		
 		try 
 		{
-			int c = a + b;
+			int c = a / b;
 			return c;
 		} 
 		catch (Exception e) 
@@ -130,8 +131,8 @@ public class _2_FinallyBlock {
 //			return 100; // by this return keyword the actual return number is overridden so dont use return in finally
 //						// other wise it will change the actual return of the method
 //		}
-		
-	}
+//		
+//	}
 
-
+}
 	
