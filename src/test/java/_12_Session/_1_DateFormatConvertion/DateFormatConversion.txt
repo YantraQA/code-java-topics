@@ -1,0 +1,8 @@
+dd/MM/yy	- 03/08/06
+dd/MM/yyyy	- 03/08/2006
+d/M/yy		- 3/8/06
+d/M/yyyy	- 3/8/2006
+ddMMyy		- 30806
+ddMMyyyy	- 3082006
+ddMMMyy		- 03Aug06
+ddMMMyyyy	- 03Aug2006
