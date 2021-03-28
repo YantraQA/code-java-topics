@@ -32,10 +32,10 @@ public class _2_String_And_Character_Concatination {
 		System.out.println("\n---------------------------------\n");
 		
 		// 1. 
-		System.out.println(a+b); // 300
+		System.out.println(a + b); // 300
 		
 		// 2. 
-		System.out.println(x+y); // TestSeleium
+		System.out.println(x + y); // TestSeleium
 		
 		// 3.
 		System.out.println(a+b+x); // 300Test

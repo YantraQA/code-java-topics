@@ -1,6 +1,5 @@
 package _10_Session._3_ThrowKeyword;
 
-import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
 
 public class _1_ThrowKeywordExample {
 	
