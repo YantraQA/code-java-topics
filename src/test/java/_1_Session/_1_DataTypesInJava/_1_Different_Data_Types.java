@@ -113,7 +113,7 @@ public class _1_Different_Data_Types {
 		System.out.println(temperature);
 		System.out.println(score);
 		System.out.println("--------------------------");
-		
+
 		System.out.println("Printing short values --->");
 		System.out.println(s1);
 		System.out.println(s2);
