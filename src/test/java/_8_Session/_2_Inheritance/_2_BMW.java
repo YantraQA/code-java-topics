@@ -21,6 +21,9 @@ public class _2_BMW extends _1_Car {
 		System.out.println("BMW -- auto parking");
 	}
 
-	
+	// Static method
+	public static void carHonk() {
+		System.out.println("Car -- Honk");
+	}
 
 }
