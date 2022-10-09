@@ -14,6 +14,9 @@ public class _1_Car extends _0_Vehicle{
 		System.out.println("Car -- fuel");
 	}
 	
-
+	// Static method
+	public static void carHonk() {
+		System.out.println("Car -- Honk");
+	}
 
 }
