@@ -13,6 +13,7 @@ public static void main(String[] args) {
 		b.fillFuel(); // calls Car class fillFuel method 
 		b.autoParking(); // calls BMW class autoParking Method
 		b.engine(); // calls Vehicle class engine Method
+		_2_BMW.carHonk(); // Called only n only form BMW class
 		
 		System.out.println("---------------------------------------------");
 		
@@ -23,6 +24,7 @@ public static void main(String[] args) {
 		c.fillFuel(); // calls Car class fillFuel method
 		c.engine(); // calls Vehicle class engine Method
 		//c.autoParking(); // Parent cannot inherit the property from child class
+		_1_Car.carHonk(); // Called only n only form Car class
 		
 		System.out.println("---------------------------------------------");
 		
@@ -33,6 +35,7 @@ public static void main(String[] args) {
 		c1.stop(); // calls Car class stop method
 		c1.fillFuel(); // calls Car class fillFuel method
 		//c1.autoParking(); // this cannot be accessed as autoParking method is not available in Car class
+		c1.carHonk(); // Calls the method form Car class only
 		
 		System.out.println("---------------------------------------------");
 		
