@@ -39,7 +39,14 @@ public class _3_Incremental_And_Decremental {
 		System.out.println(g); // -2  
 		
 		char abc = 'A';
-//		System.out.println(++A); // B
+		System.out.println(++abc); // B
+		System.out.println(abc++); // B		
+		
+		char xyz = 'B';
+		System.out.println(--xyz); // A 
+		System.out.println(xyz--); // A
+		
+		//System.out.println(++A); // Not a valid statement
 
 	}
 
