@@ -74,7 +74,9 @@ public class _2_String_And_Character_Concatination {
 		System.out.println(c3+c4); // 131 (A=65 + B=66 = 131)
 		System.out.println(q1+q2); // AB
 		
+		System.out.println(c1+c2+c3+c4+c1+c2); // 341
 		
+		System.out.println(c1+c2+q1+q2+c1+c2); // 105AB54
 
 	}
 
