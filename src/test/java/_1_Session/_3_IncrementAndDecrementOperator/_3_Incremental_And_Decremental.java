@@ -46,6 +46,8 @@ public class _3_Incremental_And_Decremental {
 		System.out.println(--xyz); // A 
 		System.out.println(xyz--); // A
 		
+		System.out.println(2+xyz); //68
+		
 		//System.out.println(++A); // Not a valid statement
 
 	}
